@@ -27,5 +27,5 @@ def test_ingredients_and_measurements():
     str_ingredients = [f'strIngredient{i}' for i in range(1, 20)]
     ingredients = find_ingredient_measurements(sample_meal)
     assert ingredients == {'soy sauce': '3/4 cup', 'water': '1/2 cup', 'brown sugar': '1/4 cup',
-     'ground ginger': '1/2 teaspoon', 'minced garlic': '1/2 teaspoon', 
+     'ground ginger': '1/2 teaspoon', 'minced garlic': '1/2 teaspoon', 'brown rice': '3 cups'
      'cornstarch': '4 Tablespoons', 'chicken breasts': '2', 'stir-fry vegetables': '1 (12 oz.)'}
